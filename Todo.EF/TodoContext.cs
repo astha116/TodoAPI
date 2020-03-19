@@ -7,6 +7,7 @@ namespace Todo.EF
 {
     public class TodoContext : DbContext
     {
+        //Model Names
         public DbSet<Todo.EF.Models.Todo> Todo { get; set; }
         public DbSet<Todo.EF.Models.User> User { get; set; }
 
